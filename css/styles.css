@@ -1,0 +1,122 @@
+/**************************HTML*TAGS********************************/
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5; 
+    font-weight: 900;
+}   
+p{
+    color: #8f8f8f;
+}
+a{
+    margin: 15px;
+    font-size: x-large;
+    color: black;
+}
+/**************************CLASSES********************************/
+.big-heading{
+    font-size: 3.5rem;
+}
+.md-heading{
+    font-size: 3rem; 
+}
+.sm-heading{
+    font-size: 1.5rem;
+}
+.col-lg-6{
+    position: relative;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+#title.container-fluid{
+    padding: 3% 15% 10%;
+}
+.copyright{
+    margin: 20px 0;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.feature-box{
+    padding: 5%;
+}
+.features-icon{
+    color: #ef8172;
+    font-size: 4rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+.iphone{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.logos{
+    width: 15%;
+    padding: 0 10px;
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 300;
+}.pricing-col{
+    padding: 3% 2%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/**************************ID-S***********************************/
+#title{
+    background-color: #ff4c68;
+    color: white;
+    position: relative;
+    text-align: left;
+}
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#testimonials{
+    background-color: #ff4c68;
+    color: white;
+
+}
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+}#pricing{
+    padding: 5%;
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+}   
+#footer{
+    padding: 5% 15%;
+}
+/**************************MEDIA*QUAERY*******************************/
+@media (max-width: 1028px){
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
