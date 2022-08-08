@@ -1,2 +1,0 @@
-# tinDog
-tinDog stranica Bootstrap 
